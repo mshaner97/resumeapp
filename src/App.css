@@ -1,0 +1,11 @@
+.biobox{
+  display: flex;
+flex-direction: row;
+border: solid 5px black;
+}
+
+.picturebox{
+  display: flex;
+  flex-direction: row;
+  border: solid 5px black;
+}
