@@ -1,4 +1,7 @@
-function ContactForm() {
+
+import { useState } from 'react'
+
+export default function ContactForm() {
     const [formData, setFormData] = useState({
       name: '',
       email: '',
@@ -17,7 +20,7 @@ function ContactForm() {
                     type="text"
                     name="name"
                     value={formData.name}
-                    onChange={handleChange}
+                    onChange={handleSubmit}
                     required />
             </div>
             <div>
@@ -26,7 +29,7 @@ function ContactForm() {
                     type="email"
                     name="email"
                     value={formData.email}
-                    onChange={handleChange}
+                    onChange={handleSubmit}
                     required />
             </div>
             <div>
@@ -34,11 +37,10 @@ function ContactForm() {
                 <textarea
                     name="message"
                     value={formData.message}
-                    onChange={handleChange}
+                    onChange={handleSubmit}
                     required />
             </div>
             <button type="submit">Submit</button>
         </form>
     );
   }
-  export default ContactForm;
