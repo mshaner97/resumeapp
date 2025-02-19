@@ -1,11 +1,63 @@
 .biobox{
   display: flex;
-flex-direction: row;
-border: solid 5px black;
+  flex-direction: row;
+  border: solid 5px black;
+  height: 300px;
+  width: 66%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+
 }
 
 .picturebox{
   display: flex;
   flex-direction: row;
   border: solid 5px black;
+  margin: auto;
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  border: solid 5px black;
+  height: 60px;
+  width: 150px;
+  margin: auto;
+}
+
+.linkbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  margin-right: 30%;}
+
+.projectmenu {
+  display: flex;
+  flex-direction: row;
+  border: solid 5px black;
+  height: 60px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.searchbar {
+  width: 25%;
+}
+
+.menu {
+  width: 15%;
 }

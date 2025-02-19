@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import ContactForm from './ContactForm';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,17 +8,24 @@ function App() {
   return (
     <>
       <header>
-        <div>MENU</div>
-        <div>PROJ. 1</div>
-        <div>PROJ. 2</div>
-        <div>PROJ. 3</div>
-        <div>SEARCHBAR</div>
+        <div className='projectmenu menu'>MENU</div>
+        <div className='projectmenu'>PROJ. 1</div>
+        <div className='projectmenu'>PROJ. 2</div>
+        <div className='projectmenu'>PROJ. 3</div>
+        <div className='projectmenu searchbar'>SEARCHBAR</div>
       </header>
       <div>
         <div className='picturebox'>PICTURE</div>
         <div className='biobox'>BIO</div>
       </div>
-      <div> 3: links and whatnot?</div>
+      <div className='linkbox'>
+        <div className='link'>ResumePDF</div>
+        <div className='link'>GithubLink</div>
+        <div className='link'>LinkdInLink</div>
+      </div>
+      <div>
+        <ContactForm />
+      </div>
     </>
   )
 }
