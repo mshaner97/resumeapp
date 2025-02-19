@@ -35,8 +35,8 @@
 .linkbox {
   display: flex;
   flex-direction: row;
-  margin-left: 30%;
-  margin-right: 30%;}
+  margin-left: 20%;
+  margin-right: 20%;}
 
 .projectmenu {
   display: flex;
@@ -60,4 +60,13 @@ header {
 
 .menu {
   width: 15%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: solid 5px black;
+  margin: auto;
+  margin-top: 80px;
 }
