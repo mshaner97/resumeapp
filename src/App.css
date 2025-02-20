@@ -9,7 +9,6 @@
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
-
 }
 
 .picturebox{
@@ -26,36 +25,37 @@
 .link {
   display: flex;
   flex-direction: row;
-  border: solid 5px black;
   height: 60px;
   width: 150px;
-  margin: auto;
+  margin: 0 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .linkbox {
   display: flex;
   flex-direction: row;
   margin-left: 20%;
-  margin-right: 20%;}
-
-.projectmenu {
-  display: flex;
-  flex-direction: row;
-  border: solid 5px black;
-  height: 60px;
-  width: 150px;
-  margin: auto;
-  margin-bottom: 100px;
+  margin-right: 20%;
+  justify-content: center;
+  margin: 20px 0;
 }
 
+.projectmenu {
+  margin: 0 40px;
+}
+  
 header {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .searchbar {
   width: 25%;
+  margin-left: auto;
 }
 
 form {
@@ -63,6 +63,12 @@ form {
   flex-direction: column;
   padding: 10px;
   border: solid 5px black;
-  margin: auto;
-  margin-top: 80px;
+  margin: 80px auto 0;
+  width: 66%;
+}
+
+.projectbuttons {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }

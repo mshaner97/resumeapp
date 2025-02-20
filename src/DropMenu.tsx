@@ -24,11 +24,12 @@ const Dropdown = ({ buttonText, menuItems }) => {
                 onClick={handleClick}sx={{
                     backgroundColor: 'pink',
                     '&:hover': {
-                        backgroundColor: '#ff69b4',
+                        backgroundColor: 'hotpink',
                     },
-                    fontSize: '2rem',
+                    fontSize: '1.5rem',
                     padding: '12px 24px',
                     color: "white",
+                    width: '200px',
                 }}
             >
                 {buttonText}
