@@ -58,10 +58,6 @@ header {
   width: 25%;
 }
 
-.menu {
-  width: 15%;
-}
-
 form {
   display: flex;
   flex-direction: column;

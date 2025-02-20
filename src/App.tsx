@@ -1,12 +1,18 @@
 import './App.css'
 import ContactForm from './ContactForm';
+import Dropdown from "./DropMenu";
 
 function App() {
 
   return (
     <>
       <header>
-        <div className='projectmenu menu'>MENU</div>
+      <div className='projectmenu menu'>
+          <Dropdown 
+            buttonText="MENU" 
+            menuItems={["Option 1", "Option 2", "Option 3"]}
+          />
+        </div>
         <div className='projectmenu'>PROJ. 1</div>
         <div className='projectmenu'>PROJ. 2</div>
         <div className='projectmenu'>PROJ. 3</div>
