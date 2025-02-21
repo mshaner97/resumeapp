@@ -1,8 +1,7 @@
 .biobox{
   display: flex;
   flex-direction: row;
-  border: solid 5px black;
-  height: 300px;
+  height: 200px;
   width: 66%;
   justify-content: center;
   margin: auto;
@@ -17,9 +16,8 @@
   border: solid 5px black;
   margin: auto;
   margin-top: 20px;
-  height: 100px;
-  width: 100px;
-
+  height: 200px;
+  width: 200px;
 }
 
 .link {
@@ -58,17 +56,18 @@ header {
   margin-left: auto;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: solid 5px black;
-  margin: 80px auto 0;
-  width: 66%;
-}
-
 .projectbuttons {
   display: flex;
   justify-content: center;
   flex-grow: 1;
+}
+
+.custom-button {
+  background-color: pink;
+  font-size: 1.5rem;
+  padding: 12px 24px;
+}
+
+.custom-button:hover {
+  background-color: hotpink;
 }
